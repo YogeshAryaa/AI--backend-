@@ -1,0 +1,173 @@
+{
+  "_note": "Undirected links between installed skills. Keys match a skill folder name (e.g. 'stripe-best-practices'), a path inside a bundle ('api-skill/api-security-patterns') or a whole bundle ('api-skill/*'). When one skill is selected for a question, its linked skills are loaded as short companions. 'keywords' are extra trigger words per skill: a skill is only considered when the question contains one of its name words or trigger words.",
+  "edges": [
+    [
+      "frontend-design",
+      "webapp-testing",
+      "verify the finished UI in a real browser"
+    ],
+    [
+      "frontend-design",
+      "playwright-skill",
+      "turn the main UI flows into end-to-end tests"
+    ],
+    [
+      "frontend-design",
+      "api-skill/api-designer",
+      "design the API the UI calls"
+    ],
+    [
+      "webapp-testing",
+      "playwright-skill",
+      "same browser automation; use Playwright patterns for lasting tests"
+    ],
+    [
+      "webapp-testing",
+      "pytest-skill",
+      "drive the browser from a Python test suite"
+    ],
+    [
+      "playwright-skill",
+      "pytest-skill",
+      "pytest fixtures and parametrization for browser tests"
+    ],
+    [
+      "playwright-skill",
+      "api-skill/api-mocking",
+      "mock backend calls in browser tests"
+    ],
+    [
+      "mcp-builder",
+      "api-skill/api-designer",
+      "shape clean tool and endpoint contracts"
+    ],
+    [
+      "mcp-builder",
+      "api-skill/api-security-patterns",
+      "authenticate and authorise tool access"
+    ],
+    [
+      "mcp-builder",
+      "gemini-api-dev",
+      "expose the tools to Gemini function calling"
+    ],
+    [
+      "mcp-builder",
+      "pytest-skill",
+      "test the server's tools"
+    ],
+    [
+      "mcp-builder",
+      "voicestudio",
+      "VoiceStudio already exposes an MCP endpoint to connect to"
+    ],
+    [
+      "pytest-skill",
+      "api-skill/api-to-testcase-generator",
+      "derive test cases from API definitions"
+    ],
+    [
+      "pytest-skill",
+      "api-skill/api-mocking",
+      "mock external services in tests"
+    ],
+    [
+      "pytest-skill",
+      "postgres-best-practices",
+      "database fixtures, migrations and query checks"
+    ],
+    [
+      "api-skill/*",
+      "pytest-skill",
+      "test the API contract"
+    ],
+    [
+      "api-skill/*",
+      "differential-review",
+      "review API changes for risk"
+    ],
+    [
+      "api-skill/*",
+      "postgres-best-practices",
+      "back the API with a well-designed schema"
+    ],
+    [
+      "stripe-best-practices",
+      "api-skill/api-security-patterns",
+      "verify webhook signatures and protect keys"
+    ],
+    [
+      "stripe-best-practices",
+      "api-skill/api-integration-helper",
+      "webhooks and event-driven flows"
+    ],
+    [
+      "stripe-best-practices",
+      "postgres-best-practices",
+      "store payments idempotently with a safe schema"
+    ],
+    [
+      "stripe-best-practices",
+      "pytest-skill",
+      "test payment flows with mocks"
+    ],
+    [
+      "stripe-best-practices",
+      "differential-review",
+      "payment code changes are high-risk"
+    ],
+    [
+      "postgres-best-practices",
+      "differential-review",
+      "review schema and query changes"
+    ],
+    [
+      "gemini-api-dev",
+      "api-skill/api-ratelimit-helper",
+      "handle quotas, retries and backoff"
+    ],
+    [
+      "gemini-api-dev",
+      "api-skill/ai-based-api",
+      "LLM-powered API patterns"
+    ],
+    [
+      "gemini-api-dev",
+      "pytest-skill",
+      "test LLM calls with mocks"
+    ],
+    [
+      "differential-review",
+      "api-skill/api-security-patterns",
+      "security-sensitive diffs"
+    ],
+    [
+      "differential-review",
+      "pytest-skill",
+      "require tests for risky changes"
+    ],
+    [
+      "voicestudio",
+      "api-skill/api-integration-helper",
+      "connect VoiceStudio to other systems and automations"
+    ],
+    [
+      "voicestudio",
+      "gemini-api-dev",
+      "optional: pair local speech with Gemini for text or translation"
+    ]
+  ],
+  "keywords": {
+    "frontend-design": "ui ux frontend interface landing page website webpage layout css typography styling visual aesthetic component react responsive dashboard",
+    "webapp-testing": "browser webapp web app local test debug screenshot console verify playwright",
+    "mcp-builder": "mcp server tool integration agent protocol",
+    "pytest-skill": "pytest python test unit integration fixture mock conftest",
+    "playwright-skill": "playwright browser e2e end-to-end automation test selenium",
+    "postgres-best-practices": "postgres postgresql database sql query index schema optimization slow rls migration",
+    "stripe-best-practices": "stripe payment checkout subscription billing webhook invoice connect",
+    "gemini-api-dev": "gemini google genai llm function calling embeddings multimodal",
+    "differential-review": "review diff pull request commit change security regression risky audit",
+    "voicestudio": "voice speech tts transcribe transcription audio dub dubbing narrate narration clone cloning subtitle voiceover dictate",
+    "api-skill/*": "api rest openapi swagger endpoint graphql grpc webhook postman newman sdk"
+  }
+}

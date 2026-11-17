@@ -1,0 +1,133 @@
+{
+  "source": "https://github.com/VoltAgent/awesome-agent-skills",
+  "description": "Curated directory of 1000+ Agent Skills from official engineering teams and the community. Individual skills are maintained in their own source repositories.",
+  "catalog_is_skill_source": false,
+  "skills": [
+    {
+      "id": "anthropics/frontend-design",
+      "category": "frontend",
+      "description": "Frontend design and UI/UX development guidance.",
+      "source_page": "https://officialskills.sh/anthropics/frontend-design"
+    },
+    {
+      "id": "anthropics/webapp-testing",
+      "category": "testing",
+      "description": "Test local web applications using Playwright.",
+      "source_page": "https://officialskills.sh/anthropics/webapp-testing"
+    },
+    {
+      "id": "anthropics/mcp-builder",
+      "category": "agents",
+      "description": "Create MCP servers to integrate external APIs and services.",
+      "source_page": "https://officialskills.sh/anthropics/mcp-builder"
+    },
+    {
+      "id": "anthropics/skill-creator",
+      "category": "agents",
+      "description": "Create and improve reusable agent skills.",
+      "source_page": "https://officialskills.sh/anthropics/skill-creator"
+    },
+    {
+      "id": "anthropics/docx",
+      "category": "documents",
+      "description": "Create, edit, and analyze Word documents.",
+      "source_page": "https://officialskills.sh/anthropics/docx"
+    },
+    {
+      "id": "anthropics/xlsx",
+      "category": "documents",
+      "description": "Build and analyze Excel workbooks.",
+      "source_page": "https://officialskills.sh/anthropics/xlsx"
+    },
+    {
+      "id": "anthropics/pdf",
+      "category": "documents",
+      "description": "Extract text, create PDFs, and handle PDF forms.",
+      "source_page": "https://officialskills.sh/anthropics/pdf"
+    },
+    {
+      "id": "testmu-ai/pytest-skill",
+      "category": "testing",
+      "description": "Generate pytest tests with fixtures, parametrization, and mocks.",
+      "source_page": "https://officialskills.sh/testmu-ai/pytest-skill"
+    },
+    {
+      "id": "testmu-ai/playwright-skill",
+      "category": "testing",
+      "description": "Generate end-to-end browser tests with Playwright.",
+      "source_page": "https://officialskills.sh/testmu-ai/playwright-skill"
+    },
+    {
+      "id": "testmu-ai/api-skill",
+      "category": "testing",
+      "description": "Design, document, secure, and test REST, GraphQL, and gRPC APIs.",
+      "source_page": "https://officialskills.sh/testmu-ai/api-skill"
+    },
+    {
+      "id": "supabase/postgres-best-practices",
+      "category": "database",
+      "description": "PostgreSQL best practices for Supabase projects.",
+      "source_page": "https://officialskills.sh/supabase/postgres-best-practices"
+    },
+    {
+      "id": "stripe/stripe-best-practices",
+      "category": "payments",
+      "description": "Best practices for building Stripe integrations.",
+      "source_page": "https://officialskills.sh/stripe/stripe-best-practices"
+    },
+    {
+      "id": "google-gemini/gemini-api-dev",
+      "category": "ai-development",
+      "description": "Best practices for developing applications with the Gemini API.",
+      "source_page": "https://officialskills.sh/google-gemini/gemini-api-dev"
+    },
+    {
+      "id": "firecrawl/firecrawl-build",
+      "category": "web-data",
+      "description": "Integrate web search, scraping, extraction, and browser interaction.",
+      "source_page": "https://officialskills.sh/firecrawl/firecrawl-build"
+    },
+    {
+      "id": "callstackincubator/react-native-best-practices",
+      "category": "mobile",
+      "description": "React Native performance and engineering best practices.",
+      "source_page": "https://officialskills.sh/callstackincubator/react-native-best-practices"
+    },
+    {
+      "id": "better-auth/best-practices",
+      "category": "authentication",
+      "description": "Best practices for authentication with Better Auth.",
+      "source_page": "https://officialskills.sh/better-auth/best-practices"
+    },
+    {
+      "id": "hashicorp/terraform-style-guide",
+      "category": "infrastructure",
+      "description": "Terraform HCL style and module conventions.",
+      "source_page": "https://officialskills.sh/hashicorp/terraform-style-guide"
+    },
+    {
+      "id": "neondatabase/neon-postgres",
+      "category": "database",
+      "description": "Best practices for Neon serverless PostgreSQL.",
+      "source_page": "https://officialskills.sh/neondatabase/neon-postgres"
+    },
+    {
+      "id": "vercel-labs/next-best-practices",
+      "category": "frontend",
+      "description": "Next.js project architecture and development best practices.",
+      "source_page": "https://officialskills.sh/vercel-labs/next-best-practices"
+    },
+    {
+      "id": "trailofbits/differential-review",
+      "category": "security",
+      "description": "Review code changes for security-sensitive differences.",
+      "source_page": "https://officialskills.sh/trailofbits/differential-review"
+    },
+    {
+      "id": "debpalash/voicestudio",
+      "category": "audio",
+      "description": "Local speech generation, voice cloning/design, transcription and dubbing via VoiceStudio's REST API or MCP server.",
+      "source_page": "https://github.com/debpalash/voicestudio"
+    }
+  ]
+}
